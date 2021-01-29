@@ -1,8 +1,14 @@
 import React from "react";
+import Header from "./components/Header";
 import "./styles.css";
-// comment
+
+
 const App = () => {
-  return <div className="App">Vanilla React App!</div>;
+  return (
+    <div className="container">
+      <Header/>
+    </div>
+  )
 };
 
 export default App;
