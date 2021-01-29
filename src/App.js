@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./components/Header";
-import "./styles.css";
+import "./index.css";
 
 
 const App = () => {
   return (
     <div className="container">
-      <Header/>
+      <Header />
     </div>
   )
 };
